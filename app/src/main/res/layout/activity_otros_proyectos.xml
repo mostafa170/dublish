@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FDEBD0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/dublish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="dublish"
+                android:layout_gravity="center"
+                android:background="@drawable/dublish" />
+            <TextView
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Es la primera idea de hacer doblaje y subtitutación de películas. Desde 2016."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/codublish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="cd"
+                android:layout_gravity="center"
+                android:background="@drawable/cd" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-black"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Es instituto de enseñanza del idioma Español especialmente.
+También, para enseñar el árabe a los extranjeros en Egipto.
+El instituto hace traducciones para los textos y documentos.
+Por otro lado, se enseña el portugués como segunda lengua.
+Desde 2017."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/traveldublish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:onClick="traveldublish"
+                android:background="@drawable/td" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="start"
+                android:fontFamily="sans-serif-black"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Es una agencia egipcia de reservas de viajes y vuelos en línea
+El instituto hace traducciones para los textos y documentos.
+Desde 2018."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

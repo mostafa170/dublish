@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mostaf170.co_dublish">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="com.javapapers.android.googleplacesdetail.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/zzz"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Sign up"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Sign in" />
+        <activity
+            android:name=".IntroActivity"
+            android:label="Bienvenido"/>
+        <activity
+            android:name=".HomeActivity"
+            android:label="Casa"
+            android:parentActivityName=".IntroActivity" />
+        <activity
+            android:name=".grammer.GramáticaActivity"
+            android:label="Modos "
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".grammer.Gramática.IndicativoActivity"
+            android:label="Modo Indicativo "
+            android:parentActivityName=".grammer.GramáticaActivity" />
+        <activity
+            android:name=".grammer.Gramática.ModeCondicional"
+            android:label="Modo Condicional"
+            android:parentActivityName=".grammer.GramáticaActivity" />
+        <activity
+            android:name=".grammer.Indicativo.PresenteDeIndicativoActivity"
+            android:label="Presente De Indicativo"
+            android:parentActivityName=".grammer.Gramática.IndicativoActivity" />
+        <activity
+            android:name=".grammer.Gramática.ModeConficional.ConficionalSIMPLEActivity"
+            android:label="Condicional Simple"
+            android:parentActivityName=".grammer.Gramática.ModeCondicional" />
+        <activity
+            android:name=".grammer.Gramática.ImperationActivity"
+            android:label="Imperativo"
+            android:parentActivityName=".grammer.GramáticaActivity" />
+        <activity
+            android:name=".grammer.Gramática.SubjuntivoActivity"
+            android:label="Subjuntivo"
+            android:parentActivityName=".grammer.GramáticaActivity" />
+        <activity
+            android:name=".grammer.Indicativo.PretéritoIndefinidoActivity"
+            android:label="Pretérito Indefinido"
+            android:parentActivityName=".grammer.Gramática.IndicativoActivity" />
+        <activity
+            android:name=".grammer.Indicativo.PretéritoPerfectoActivity"
+            android:label="Pretérito Perfecto"
+            android:parentActivityName=".grammer.Gramática.IndicativoActivity" />
+        <activity
+            android:name=".grammer.Indicativo.PretéritoImperfectoActivity"
+            android:label="Pretérito Imperfecto"
+            android:parentActivityName=".grammer.Gramática.IndicativoActivity" />
+        <activity
+            android:name=".grammer.Indicativo.PretéritoPluscuamperfectoActivity"
+            android:label="PretéritoPluscuamperfecto"
+            android:parentActivityName=".grammer.Gramática.IndicativoActivity" />
+        <activity
+            android:name=".grammer.Indicativo.FuturoActivity"
+            android:label="Futuro Simple"
+            android:parentActivityName=".grammer.Gramática.IndicativoActivity" />
+        <activity
+            android:name=".grammer.Gramática.ModeConficional.CondicionalCompuestoActivity"
+            android:label="Condicional Compuesto"
+            android:parentActivityName=".grammer.Gramática.ModeCondicional" />
+        <activity
+            android:name=".grammer.Indicativo.FuturoCompuestoActivity"
+            android:label="Futuro Compuesto"
+            android:parentActivityName=".grammer.Gramática.IndicativoActivity" />
+        <activity
+            android:name=".home.VocabularioActivity"
+            android:label="Vocabulario"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".home.voc.DescribiendoGenteActivity"
+            android:label="Describiendo Gente"
+            android:parentActivityName=".home.VocabularioActivity" />
+        <activity
+            android:name=".home.voc.NumberActivity"
+            android:label="Number"
+            android:parentActivityName=".home.VocabularioActivity" />
+        <activity
+            android:name=".home.voc.PhraseActivity"
+            android:label="Phrase"
+            android:parentActivityName=".home.VocabularioActivity" />
+        <activity
+            android:name=".home.voc.ColorActivity"
+            android:label="Color"
+            android:parentActivityName=".home.VocabularioActivity" />
+        <activity
+            android:name=".home.chat.ChatActivty"
+            android:label="Charla"
+            android:parentActivityName=".home.chat.ChatActivty" />
+        <activity
+            android:name=".home.OtrosProyectosActivity"
+            android:label="Otros Proyectos"
+            android:parentActivityName=".home.OtrosProyectosActivity" />
+        <activity
+            android:name=".home.TrabajoActivity"
+            android:label="Trabajo"
+            android:parentActivityName=".home.TrabajoActivity" />
+        <activity
+            android:name=".home.VideosActivity"
+            android:label="Videos"
+            android:parentActivityName=".home.VideosActivity" />
+        <activity
+            android:name=".home.QuizMainActivity"
+            android:label="Pruebas"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".testB2.B2.QuizActivityB2"
+            android:label="Prueba De Nivel B2"
+            android:parentActivityName=".home.QuizMainActivity" />
+        <activity
+            android:name=".testB2.B2.ResultActivityB2"
+            android:label="Resultados!!!" />
+
+
+    </application>
+</manifest>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/numbers"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="@color/category_numbers"
+        android:text="Familia / Parentesco"/>
+
+    <TextView
+        android:id="@+id/family"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="@color/category_family"
+        android:text="@string/category_family" />
+
+    <TextView
+        android:id="@+id/colors"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="@color/category_colors"
+        android:text="Caracteres / Sentimientos" />
+
+    <TextView
+        android:id="@+id/phrases"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="@color/category_phrases"
+        android:text="Cortesía / Funciones Sociales" />
+
+    <TextView
+        android:id="@+id/ElCuerpo"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="#ff4000"
+        android:text="Cuerpo" />
+
+    <TextView
+        android:id="@+id/LaSalud"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="#ffbf00"
+        android:text="Salud" />
+
+    <TextView
+        android:id="@+id/DatosPersonales"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="#bfff00"
+        android:text="Datos Personales" />
+
+    <TextView
+        android:id="@+id/MediosdeComunicación"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="#0000ff"
+        android:text="Medios de Comunicación" />
+
+    <TextView
+        android:id="@+id/Tiendas"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="#ff00ff"
+        android:text="Tiendas" />
+
+    <TextView
+        android:id="@+id/Ropa"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="#40ff00"
+        android:text="Ropa" />
+
+    <TextView
+        android:id="@+id/LaCiudad"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="#4000ff"
+        android:text="Ciudad" />
+
+    <TextView
+        android:id="@+id/LaCasaLaCocina"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="#ff0040"
+        android:text="Cocina" />
+
+    <TextView
+        android:id="@+id/LaCasaElDormitorio"
+        style="@style/CategoryStyle"
+        android:fontFamily="sans-serif"
+        android:background="#8000ff"
+        android:text="Dormitorio" />
+
+</LinearLayout>
+</ScrollView>

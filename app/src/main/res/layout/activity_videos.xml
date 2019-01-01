@@ -1,0 +1,145 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FDEBD0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FDEBD0"
+            android:onClick="aprendervocabulario"
+            android:id="@+id/aprendervocabulario"
+            android:layout_gravity="center"
+        android:src="@drawable/aprendervocabulario"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="5 trucos para aprender vocabulario en otro idioma de manera rápida y eficaz | Las voces de Babbel"
+            android:gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FDEBD0"
+            android:onClick="aprendersubjuntivo"
+            android:id="@+id/aprendersubjuntivo"
+            android:layout_gravity="center"
+            android:src="@drawable/aprendersubjuntivo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="SUBJUNTIVO, ¿qué es?, ¿cuántos tiempos tiene?"
+            android:gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FDEBD0"
+            android:onClick="aprenderindicativo"
+            android:id="@+id/aprenderindicativo"
+            android:layout_gravity="center"
+            android:src="@drawable/aprenderindicativo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Modo Indicativo."
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FDEBD0"
+            android:onClick="queesdificilhablarespañol"
+            android:id="@+id/queesdificilhablarespañol"
+            android:layout_gravity="center"
+            android:src="@drawable/queesdificilhablarespaol"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Qué difícil es hablar el español (con subtítulos en español)"
+            android:gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FDEBD0"
+            android:onClick="aprendesobrelacasa"
+            android:id="@+id/aprendesobrelacasa"
+            android:layout_gravity="center"
+            android:src="@drawable/aprendesobrelacasa"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Aprende las habitaciones de la casa | Vocabulario para niños"
+            android:gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FDEBD0"
+            android:onClick="aprendesobrelacomida"
+            android:id="@+id/aprendesobrelacomida"
+            android:layout_gravity="center"
+            android:src="@drawable/aprendesobrelacomida"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Como aprender a orar por los alimentos - Enseñanza Cristiana - HD"
+            android:gravity="center"/>
+    </LinearLayout>
+</ScrollView>
