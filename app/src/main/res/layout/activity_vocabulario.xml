@@ -16,7 +16,7 @@
         style="@style/CategoryStyle"
         android:fontFamily="sans-serif"
         android:background="@color/category_numbers"
-        android:text="Familia / Parentesco"/>
+        android:text="Salud"/>
 
     <TextView
         android:id="@+id/family"
@@ -30,48 +30,48 @@
         style="@style/CategoryStyle"
         android:fontFamily="sans-serif"
         android:background="@color/category_colors"
-        android:text="Caracteres / Sentimientos" />
+        android:text="Familia" />
 
     <TextView
         android:id="@+id/phrases"
         style="@style/CategoryStyle"
         android:fontFamily="sans-serif"
         android:background="@color/category_phrases"
-        android:text="Cortesía / Funciones Sociales" />
+        android:text="Medios De Comunicación" />
 
     <TextView
-        android:id="@+id/ElCuerpo"
+        android:id="@+id/Caracteres"
         style="@style/CategoryStyle"
         android:fontFamily="sans-serif"
         android:background="#ff4000"
-        android:text="Cuerpo" />
+        android:text="Caracteres y Sentimientos" />
 
     <TextView
-        android:id="@+id/LaSalud"
+        android:id="@+id/Cuerpo"
         style="@style/CategoryStyle"
         android:fontFamily="sans-serif"
         android:background="#ffbf00"
-        android:text="Salud" />
+        android:text="Cuerpo" />
 
     <TextView
         android:id="@+id/DatosPersonales"
         style="@style/CategoryStyle"
         android:fontFamily="sans-serif"
-        android:background="#bfff00"
+        android:background="#ff00ff"
         android:text="Datos Personales" />
 
     <TextView
-        android:id="@+id/MediosdeComunicación"
+        android:id="@+id/CortesíaYFuncionenSociales"
         style="@style/CategoryStyle"
         android:fontFamily="sans-serif"
         android:background="#0000ff"
-        android:text="Medios de Comunicación" />
+        android:text="Cortesía Y Funcionen Sociales" />
 
     <TextView
         android:id="@+id/Tiendas"
         style="@style/CategoryStyle"
         android:fontFamily="sans-serif"
-        android:background="#ff00ff"
+        android:background="#ff0080"
         android:text="Tiendas" />
 
     <TextView

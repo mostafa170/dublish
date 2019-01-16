@@ -2,11 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mostaf170.co_dublish">
 
-    <supports-screens
-        android:largeScreens="true"
+    <supports-screens android:smallScreens="true"
         android:normalScreens="true"
-        android:smallScreens="true"
-        android:xlargeScreens="true" />
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true" />
 
     <uses-permission android:name="com.javapapers.android.googleplacesdetail.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -137,16 +137,32 @@
             android:label="Describiendo Gente"
             android:parentActivityName=".home.VocabularioActivity" />
         <activity
-            android:name=".home.voc.NumberActivity"
-            android:label="Number"
+            android:name=".home.voc.SaludActivity"
+            android:label="Salud"
             android:parentActivityName=".home.VocabularioActivity" />
         <activity
-            android:name=".home.voc.PhraseActivity"
-            android:label="Phrase"
+            android:name=".home.voc.MediosDeComunicaciónActivity"
+            android:label="Medios De Comunicación"
             android:parentActivityName=".home.VocabularioActivity" />
         <activity
-            android:name=".home.voc.ColorActivity"
-            android:label="Color"
+            android:name=".home.voc.FamiliaActivity"
+            android:label="Familia"
+            android:parentActivityName=".home.VocabularioActivity" />
+        <activity
+            android:name=".home.voc.CaracteresySentimientosActivity"
+            android:label="Caracteres y Sentimientos"
+            android:parentActivityName=".home.VocabularioActivity" />
+        <activity
+            android:name=".home.voc.CuerpoActivity"
+            android:label="Cuerpo"
+            android:parentActivityName=".home.VocabularioActivity" />
+        <activity
+            android:name=".home.voc.DatosPersonalesActivity"
+            android:label="Datos Personales"
+            android:parentActivityName=".home.VocabularioActivity" />
+        <activity
+            android:name=".home.voc.CortesíaYFuncionenSocialesActivity"
+            android:label="Cortesía Y Funcionen Sociales"
             android:parentActivityName=".home.VocabularioActivity" />
         <activity
             android:name=".home.chat.ChatActivty"

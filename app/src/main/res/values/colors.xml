@@ -31,4 +31,16 @@
 
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#16AFCA</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_CortesíaYFuncionenSociales">#0000ff</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_Cuerpo">#ffbf00</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_DatosPersonales">#ff00ff</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_CaracteresySentimientos">#ff4000</color>
 </resources>
